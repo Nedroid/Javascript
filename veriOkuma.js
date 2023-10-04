@@ -1,0 +1,13 @@
+var ad ,soyad;
+ad = prompt("adınız");
+soyad=prompt("soyadınız");
+document.write("Merhaba " +ad+ "soyadınız :"+soyad);
+document.write("</br>");
+document.write(ad);
+document.write("</br>");
+alert(ad);
+console.log(ad);
+document.write("merhaba" +ad  );
+document.write("</br>");
+var how=prompt("nasılsınız");
+document.write(how +"olmak iyidir") ;
