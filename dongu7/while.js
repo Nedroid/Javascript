@@ -1,7 +1,8 @@
-var sayac =0,top=0;
+var sayac =0;
+
 while(sayac<=5)
-{   
-     document.write("Merhaba"+"<br>");
+{   var top=0;
+     document.write("Merhaba");
      top=top+sayac;
      document.write(top);
      sayac++;
