@@ -1,7 +1,8 @@
-var s=1 ,top=0;
+let s=1 ;
+let toplam=0;
 do
 {
-    top=top+s;
+    toplam=toplam+s;
     s++;
 }while(s<=5);
-document.write("toplam="+top);
+document.write("toplam=" +toplam);
