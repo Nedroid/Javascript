@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body onload="setTimeout(zaman,10000)">
+        <button onclick="pencere()">Pencerede ac</button>
+        <p id="tarih"></p>
+        <div id="kutu"></div>
+        <script>
+            function tarih(){
+                document.getElementById("tarih").innerHTML=Date();
+            }
+            function pencere(){
+                open('documentDizi.html');
+            }
+            function zaman(){
+                alert("5saniye doldu");
+            }
+            // setTimeout(zaman(), 100000);
+            var i =0;
+            function say(){
+                document.getElementById("kutu").innerHTML=i;
+                i++;
+
+            }
+            window.setInterval(say,1000);
+        </script>
+    </body>
+</html>

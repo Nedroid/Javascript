@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="hataayiklama.js">
+
+        </script>
+    </head>
+    <body>
+        <h2>Veri Gİriş Formu</h2>
+    Ad Soyad=<input type="text" id="txtAdSoyad"><br>
+    <input type="submit" value="Onayla">
+    <p id="hata"></p>
+<script >
+    try {
+        aaaalert("hata olabilir")
+    } catch (error) {
+        document.getElementById("hata").innerHTML=error.message;
+       // console.log=error.message;
+    }
+</script>
+    </body>
+</html>
